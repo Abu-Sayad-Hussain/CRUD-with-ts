@@ -1,0 +1,12 @@
+{
+  "type": "postgres",
+  "dateStrings": true,
+  "host": "127.0.0.1",
+  "port": 5432,
+  "username": "postgres",
+  "password": "password",
+  "database": "CRUD",
+  "entities": ["dist/**/*.entity{.ts,.js}"],
+  "synchronize": true,
+  "logging": true
+}
